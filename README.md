@@ -11,7 +11,41 @@ To run this application locally, follow these steps:
 - Node.js and npm installed on your machine
 - MongoDB installed and running
 
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/student-details-app.git
+```
+
+### 2. Navigate to the project directory:
+```bash
+cd kc-sde
+```
+
+### 3. Install dependencies:
+```bash
+npm install
+
+```
+
+### 4.Set up environment variables by creating a .env file in the root directory. Example .env file:
+```bash
+PORT=3000
+DB_HOST=localhost
+DB_PORT=27017
+DB_NAME=student_db
+
+Update DB_HOST, DB_PORT, and DB_NAME according to your MongoDB configuration.
+```
+
+### 5. Start the server
+```bash
+npm start
+
+```
+
+### 6.The server will start running on the specified port (default is 3000). You can now access the APIs at http://localhost:3000/api/students and http://localhost:3000/api/students/filter.
+
+### Usage
+Use the API endpoints to fetch student details and implement server-side filtering.
+Refer to the API documentation for more details on available endpoints and request/response formats.
