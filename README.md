@@ -14,7 +14,7 @@ To run this application locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/student-details-app.git
+git clone https://github.com/yourusername/kc-sde.git
 ```
 
 ### 2. Navigate to the project directory:
